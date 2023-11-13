@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['3']
+
+roboflow:
+  workspace: germantrafficsigns-zl3mn
+  project: stop-sign-zn1kw
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/germantrafficsigns-zl3mn/stop-sign-zn1kw/dataset/3
