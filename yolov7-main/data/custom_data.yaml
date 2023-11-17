@@ -1,5 +1,5 @@
-train: ./coco/train
-val: ./coco/valid
+train: ./data/train
+val: ./data/valid
 
 
 # number of classes
