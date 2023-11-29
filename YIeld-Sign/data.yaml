@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['2']
+
+roboflow:
+  workspace: germantrafficsigns-zl3mn
+  project: yield-sign-6ktrs
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/germantrafficsigns-zl3mn/yield-sign-6ktrs/dataset/5
