@@ -1,5 +1,5 @@
-train: ./data/train
-val: ./data/valid
+train: ./data/Stop-Sign/train
+val: ./data/Stop-Sign/valid
 
 
 # number of classes
