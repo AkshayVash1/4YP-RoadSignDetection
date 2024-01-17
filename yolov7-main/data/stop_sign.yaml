@@ -1,0 +1,9 @@
+train: c:\Users\Matthew Parker\Desktop\Work\2023Fall\Capstone\4YP-RoadSignDetection\yolov7-main\data\Stop-Sign\train
+val: c:\Users\Matthew Parker\Desktop\Work\2023Fall\Capstone\4YP-RoadSignDetection\yolov7-main\data\Stop-Sign\valid
+
+
+# number of classes
+nc: 1
+
+# class names
+names: [ 'stop sign']

@@ -1,0 +1,9 @@
+train: ./data/Yield-Sign/train
+val: ./data/Yield-Sign/valid
+
+
+# number of classes
+nc: 1
+
+# class names
+names: [ 'yield sign']
