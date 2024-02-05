@@ -5,4 +5,4 @@ response = simp.simple_image_download
 keywords = ["street stop sign"]
 
 for kw in keywords:
-    response().download(kw, 1000)
+    response().download(kw, 300)
