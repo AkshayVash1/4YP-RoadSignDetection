@@ -1,9 +1,0 @@
-train: ./data/Stop-Sign/train
-val: ./data/Stop-Sign/valid
-
-
-# number of classes
-nc: 1
-
-# class names
-names: [ 'stop sign']
