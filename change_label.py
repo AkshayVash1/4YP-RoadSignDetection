@@ -1,6 +1,6 @@
 import os
 
-dir_path = r"C:\Users\Akshay\.vscode\4YP-RoadSignDetection\4YP-RoadSignDetection\traffic-light\train\labels"
+dir_path = r"C:\Users\Akshay\.vscode\4YP-RoadSignDetection\4YP-RoadSignDetection\yield-sign\valid\labels"
 save_path = r"C:\Users\Akshay\.vscode\4YP-RoadSignDetection\4YP-RoadSignDetection\saves"
 
 res = []
@@ -21,11 +21,10 @@ for file in res:
                 with open(file, "w") as wf:
                     for line in lines:
                         if line[0] == "0":
-                            newline = line.replace("0", "3")
+                            newline = line.replace("0", "4", 1) 
                             wf.write(newline)
-                            wf.close()
                         else: 
                             wf.write(line)
-                            wf.close()
+                    wf.close()
                             
                     

@@ -3,7 +3,7 @@ val: ./data//valid
 
 
 # number of classes
-nc: 4
+nc: 8
 
 # class names
-names: [ 'stop sign', 'red light', 'yellow light', 'green light']
+names: [ 'stop sign', 'yellow light', 'green light', 'red light', 'yield sign', 'no-entry sign', 'no-left sign', 'no-right sign']
